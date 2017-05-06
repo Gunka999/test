@@ -1,0 +1,451 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+
+
+.ObsiyNavbar{
+	background: black;
+	/*background-image: url(../img/7.jpg);*/
+	/*height: 278px;*/
+	/*background-color: transparent;
+	background-size: cover*/;
+}
+
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-1px, 3px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-6px, -7px) ;
+}
+
+
+.navbar{
+	 
+    background: transparent;
+    border: none;
+	
+}
+
+#myNavbar{
+  border-bottom: 1px solid white;
+}
+
+.ru{
+ 
+  background-repeat: no-repeat;  
+  background-image: url(../img/ru.png);
+  margin-top: 17px;
+}
+.en{
+ 
+  background-repeat: no-repeat;  
+  background-image: url(../img/en.png);
+  margin-top: 17px;
+}
+.Poisk form{
+margin-bottom: 20px;
+}
+.Poisk{
+	padding: 10px;
+}
+.logo{
+    padding: 16px;
+}
+.logo img{
+height: 20px;
+max-width: 100% !important;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    z-index: 999;
+   /* border: none;*/
+    background-color: transparent;
+    /*background-image: url('searchicon.png');*/
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 75%;
+}
+
+.soqlaseniye a , .kontakti h1{
+	font-size: 12px;
+	color: white;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.soqlaseniye a:last-child{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.TextPodNavbar{
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+.TextPodNavbar h1{
+	color: white;
+	font-weight: 600;
+	font-size: 40px;	
+}
+.TextPodNavbar p{
+	color: white;
+		
+}
+
+/*.navbarObsiy{
+	border-bottom: 1px solid white;
+}*/
+
+.navbar-inverse .navbar-nav>li>a{
+color: white;
+text-decoration: none; 
+
+   }
+.navbar-inverse .navbar-nav>li>a:hover{
+color: white;
+   }
+
+.bar1 , .bar2 , .bar3{
+	color: black;
+}
+.button3 {
+    background: #333;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+
+.navbarCvetBukv ul li a{
+background: transparent;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+   background: transparent;
+}
+.Language{
+	background: transparent;
+}
+.Language li a{
+	color: white;
+	background: transparent;
+}
+.Language li a:hover{
+	color: white;
+	background: transparent;
+}
+
+ @media screen and (max-width:991px){
+	
+ 	.soqlaseniye{
+ 		margin-bottom: 30px;
+ 	}
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.marginPadding{
+  margin: 0;
+  padding: 0;
+}
+.list{
+	text-align: center;
+	margin-top: -40px;
+
+	/*margin-top: 30px;*/
+	/*margin-top: -20px;*/
+}
+
+.list ul li {
+      /*padding: 20px;*/
+    padding: 21px 5px;
+    margin: 0px 0px 6px;
+width: 186px;
+    /*margin: 3px;*/
+    border-radius: 7px;
+    background: #00447c;
+    text-align: center;
+}
+.list ul li a {
+    font-size: 15px;
+   /* color: #757575;*/
+   color: white;
+    font-weight: 600;
+     text-decoration: none; 
+}
+
+div.panel {
+    
+    display: none;
+    
+}
+.zaqolovka{
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid red;
+}
+.zaqolovka h1{
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+}
+.zaqolovka i{
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+  float: right;
+}
+
+.opisaniye{
+  margin: 0;
+  padding: 0;
+ }
+ .opisaniye h1{
+  font-size: 18px;
+  font-weight: 600;
+ }
+ .rastoyaniyemarginTop{
+  margin-top: 25px;
+ }
+ .danniye p{
+  font-size: 12px;
+ }
+ .opisaniye span{
+  color: grey;
+ }
+
+ .map{
+  /*background: grey;*/
+  margin-top: 20px;
+  height: 300px;
+ }
+
+ .map iframe{
+  width: 100%;
+  height: 100%;
+ }
+/*.same{
+	list-style: none;
+	float: left;
+}*/
+.same h3{
+font-weight: 600;
+color: black; 
+
+padding: 5px;
+/*text-align: center;*/
+}
+.krasnayaLiniya{
+	border-bottom: 2px solid red; 
+}
+   .krasnayaLiniya a{
+   	font-size: 15px;
+   	 float: right;
+    margin-top: 23px;
+   }
+   .krasnayaLiniya a i{
+   	    font-size: 30px;
+   	    color: red;
+
+   	 
+   }
+
+.same p {
+    color: #2a2a2a;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.same ul li {
+	color: #2a2a2a;
+	font-size: 16px;
+}
+.same{
+
+ background: #f9f9f9;
+}
+
+/*@media (min-width: 768px) {
+
+}*/
+
+/* Change background color of buttons on hover */
+div.list li:hover {
+    background-color: #58ACFA;
+}
+
+/* Create an active/current "tab button" class */
+div.list li.active {
+    background-color: #58ACFA;
+}
+
+
+
+.PodMenu{
+	margin-top: 10px;
+}
+
+
+
+
+
+
+.cast3Rastoyaniye{
+	margin-top: 50px;
+	border-top: 1px solid #00447c;
+}
+.Cast3{
+padding: 15px;
+}
+.Cast3 ul{
+ list-style-type: none;
+}
+
+
+.Cast3 ul li{
+display: inline;
+margin: 10px;
+}
+.Cast3 ul li a{
+text-decoration: none;
+font-weight: 600;
+}
+
+.Corniy a{
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+.footer{
+	/*background: #00447c;*/
+	background: #00447c;
+	border:1px solid white;
+}
+
+.footer h1{
+color: white;
+font-size: 14px;
+}
+.FooterTop{
+	margin-top: 10px;
+}
+
+.searchEmail{
+	margin-top: 12px;
+}
+
+.form-group{
+	background: white;
+}
+
+.input-group-addon{
+	background: rgba(255, 0, 0, 0.9);
+}
+.input-group-addon i{
+	color: white;
+	font-size: 20px;
+}
+
+.social ul li{
+    display: inline-block;
+    display: inline;
+    margin:20px;
+    font-size: 15px;
+    float: right;
+}
+
+
+
+.social li a{
+    color: white;
+
+}
+
+.footer2 {
+background: #00447c;
+padding-bottom: 40px;
+}
+
+.footer2 h1{
+font-size: 15px;
+font-weight: 600;
+color: white;
+}
+.footer2 ul{
+ list-style-type: none;
+ margin-top: 40px;
+}
+
+.reng ul li a:hover{
+	color: white;
+	text-decoration: none
+}
+.footer2 ul li{
+font-size: 12px;
+margin-bottom: 5px;
+}
+
+.footer2 ul li a{
+text-decoration: none;
+color: white;
+
+}
+.b1 , .b2{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

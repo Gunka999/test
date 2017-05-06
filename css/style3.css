@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.marginPadding{
+  margin: 0;
+  padding: 0;
+}
+.list{
+	/*margin-top: 30px;*/
+	/*margin-top: -20px;*/
+}
+
+.list ul li {
+   /* border: 2px solid #777;*/
+    /*padding: 20px;*/
+    padding: 21px 5px;
+    margin: 0px 0px 6px;
+width: 186px;
+    /*margin: 3px;*/
+    border-radius: 7px;
+    background: #2E2EFE;
+    text-align: center;
+}
+.list ul li a {
+    font-size: 15px;
+   /* color: #757575;*/
+   color: white;
+    font-weight: 600;
+     text-decoration: none; 
+}
+
+div.panel {
+    
+    display: block;
+    
+}
+.zaqolovka{
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid red;
+}
+.zaqolovka h1{
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+}
+.zaqolovka i{
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+  float: right;
+}
+
+.opisaniye{
+  margin: 0;
+  padding: 0;
+ }
+ .opisaniye h1{
+  font-size: 18px;
+  font-weight: 600;
+ }
+ .rastoyaniyemarginTop{
+  margin-top: 25px;
+ }
+ .danniye p{
+  font-size: 12px;
+ }
+ .opisaniye span{
+  color: grey;
+ }
+
+ .map{
+  background: grey;
+  margin-top: 20px;
+  height: 250px;
+ }
+/*.same{
+	list-style: none;
+	float: left;
+}*/
+.same h3{
+font-weight: 600;
+color: black; 
+
+padding: 5px;
+/*text-align: center;*/
+}
+.krasnayaLiniya{
+	border-bottom: 2px solid red; 
+}
+   .krasnayaLiniya a{
+   	font-size: 15px;
+   	 float: right;
+    margin-top: 23px;
+   }
+   .krasnayaLiniya a i{
+   	    font-size: 30px;
+   	    color: red;
+
+   	 
+   }
+
+.same p {
+    color: #2a2a2a;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.same ul li {
+	color: #2a2a2a;
+	font-size: 16px;
+}
+.same{
+
+ background: #f9f9f9;
+}
+
+/*@media (min-width: 768px) {
+
+}*/
+
+/* Change background color of buttons on hover */
+div.list li:hover {
+    background-color: #58ACFA;
+}
+
+/* Create an active/current "tab button" class */
+div.list li.active {
+    background-color: #2E2EFE;
+}
